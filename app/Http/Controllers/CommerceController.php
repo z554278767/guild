@@ -20,25 +20,5 @@ class CommerceController extends Controller
     {
         $this->commerce = $commerce;
     }
-
-    /**
-     * 商会建设列表
-     * @return json
-     */
-    public function check_list()
-    {
-        $list = $this->commerce->check_list();
-        return $list;
-    }
-
-    /**
-     * 商会建设列表详情
-     * @param $id 详情ID
-     * @return json
-     */
-    public function details(Request $request)
-    {
-
-    }
-
+    
 }

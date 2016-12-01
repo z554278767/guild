@@ -17,7 +17,7 @@ class CompanysRepository
      */
     public function check_list()
     {
-        $re = Companys::all(array('c_id','c_name','created_at','c_contacts','c_phone','c_status'))->toArray();
+        $re = Companys::orderBy('updated_at','asc')->get(array('c_id','c_name','created_at','c_contacts','c_phone','c_status'))->toArray();
         if($re){
             $data['code'] = 10000;
             $data['status']='success';

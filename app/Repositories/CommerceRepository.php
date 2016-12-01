@@ -3,7 +3,7 @@
 namespace App\Repositories;
 
 use Illuminate\Support\Facades\Input;
-use App\Commerce;
+use App\Articles;
 
 /**
  * @var Commerce仓库
