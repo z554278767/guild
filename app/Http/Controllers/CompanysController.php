@@ -23,10 +23,29 @@ class CompanysController extends Controller
 
     /**
      * 审批列表
-     * @return string
+     * @return json
      */
     public function check_list()
     {
-
+        $list = $this->companys->check_list();
+        return $list;
     }
+
+    /**
+     * 审批详情
+     * @param $id 详情ID
+     * @return json
+     */
+    public function details(Request $request)
+    {
+        if($request->isMethod('post')){
+            $data = $request->input();
+            $details = $this->companys->audit($data);
+        }else{
+            $id = $request->input('id');
+            $details = $this->companys->details($id);
+        }
+        return $details;
+    }
+
 }

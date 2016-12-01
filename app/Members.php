@@ -11,7 +11,4 @@ class Members extends Model
 {
     //表名
     protected $table = 'members';
-    //关闭时间戳
-    public $timestamps = false;
-
 }

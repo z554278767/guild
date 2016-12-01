@@ -15,3 +15,7 @@ use Illuminate\Http\Request;
 
 //登录
 Route::any('/login','LoginController@login');
+//审批列表
+Route::any('/check_list','CompanysController@check_list');
+//审批详情
+Route::any('/details','CompanysController@details');
