@@ -33,7 +33,7 @@ class CompanysController extends Controller
 
     /**
      * 审批详情
-     * @param $id 详情ID
+     * @param $c_id 详情ID
      * @return json
      */
     public function details(Request $request)
@@ -42,7 +42,7 @@ class CompanysController extends Controller
             $data = $request->input();
             $details = $this->companys->audit($data);
         }else{
-            $id = $request->input('id');
+            $id = $request->input('c_id');
             $details = $this->companys->details($id);
         }
         return $details;

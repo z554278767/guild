@@ -13,6 +13,7 @@ class CompanysRepository
 {
     /**
      * 审批列表
+     * @return json
      */
     public function check_list()
     {
@@ -31,6 +32,8 @@ class CompanysRepository
 
     /**
      * 审批详情
+     * @param $id
+     * @return json
      */
     public function details($id)
     {
@@ -49,6 +52,8 @@ class CompanysRepository
 
     /**
      * 审核
+     * @param $data
+     * @return json
      */
     public function audit($data)
     {
