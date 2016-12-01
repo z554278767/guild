@@ -19,24 +19,29 @@ class VerifyRepository
      */
     public function verify_login($data)
     {
-        $re = Members::where('m_name',$data['username'])->first();
-        if($re){
-            $re = $re->toArray();
-            $bool = Hash::check($data['password'],$re['m_password']);
-            if($bool){
-                $arr['code'] = '10000';     //登陆成功
-                $key = '1412phpA';
-                $appkey = Hash::make($data['username'].$key.$data['password']);
-                $arr['data'] = ['status'=>'sussess','appkey'=>$appkey,'content'=>'Login successful'];
-                exit(json_encode($arr));
+        if(!empty($data['key']) && $data['key']=="1412phpA"){
+            $re = Members::where('m_name',$data['username'])->first();
+            if($re){
+                $re = $re->toArray();
+                $bool = Hash::check($data['password'],$re['m_password']);
+                if($bool){
+                    $arr['code'] = '10000';     //登陆成功
+                    $appkey = Hash::make($data['username'].$data['key'].$data['password']);
+                    $arr['data'] = ['status'=>'sussess','appkey'=>$appkey,'content'=>'Login successful'];
+                    exit(json_encode($arr));
+                }else{
+                    $arr['code'] = '10002';     //密码错误
+                    $arr['data'] = ['status'=>'false','content'=>'Password mistake'];
+                    exit(json_encode($arr));
+                }
             }else{
-                $arr['code'] = '10002';     //密码错误
-                $arr['data'] = ['status'=>'false','content'=>'Password mistake'];
+                $arr['code'] = '10001';     //用户名不存在
+                $arr['data'] = ['status'=>'false','content'=>'User name does not exist'];
                 exit(json_encode($arr));
             }
         }else{
-            $arr['code'] = '10001';     //用户名不存在
-            $arr['data'] = ['status'=>'false','content'=>'User name does not exist'];
+            $arr['code'] = '10003';     //秘钥不正确
+            $arr['data'] = ['status'=>'false','content'=>'The secret key error'];
             exit(json_encode($arr));
         }
     }
