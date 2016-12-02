@@ -9,6 +9,8 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Punish extends Model
 {
+    //主键
+    protected $primaryKey = 'j_id';
     //表名
     protected $table = 'judgments';
 }
