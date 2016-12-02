@@ -22,6 +22,16 @@ class CommerceController extends Controller
     }
 
     /**
+     * 商会建设列表
+     * @return json
+     */
+    public function message_list()
+    {
+        $list = $this->commerce->message_list();
+        return $list;
+    }
+
+    /**
      * 动态添加
      * @return json
      */

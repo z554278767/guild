@@ -19,6 +19,8 @@ Route::any('/login','LoginController@login');
 Route::any('/check_list','CompanysController@check_list');
 //审批详情
 Route::any('/details','CompanysController@details');
+//动态信息列表
+Route::any('/message_list','CommerceController@message_list');
 //动态信息添加
 Route::any('/message_add','CommerceController@message_add');
 //动态信息删除
