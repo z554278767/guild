@@ -27,7 +27,7 @@ class VerifyRepository
                 if($bool){
                     $arr['code'] = '10000';     //登陆成功
                     $appkey = Hash::make($data['username'].$data['key'].$data['password']);
-                    $arr['data'] = ['status'=>'sussess','appkey'=>$appkey,'content'=>'Login successful'];
+                    $arr['data'] = ['status'=>'success','appkey'=>$appkey,'content'=>'Login successful'];
                     exit(json_encode($arr));
                 }else{
                     $arr['code'] = '10002';     //密码错误
@@ -45,4 +45,7 @@ class VerifyRepository
             exit(json_encode($arr));
         }
     }
+
+
+
 }

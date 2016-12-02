@@ -15,3 +15,11 @@ use Illuminate\Http\Request;
 
 //登录
 Route::any('/login','LoginController@login');
+
+//联合惩戒 列表
+Route::any('/punish','PunishController@Punish_list');
+//惩戒 详情
+Route::any('/punish_details','PunishController@punish_details');
+//联合惩戒 添加
+Route::post('/punish_add','PunishController@punish_add');
+
