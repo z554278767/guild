@@ -12,6 +12,40 @@ use App\Articles;
 class CommerceRepository
 {
     /**
+     * 添加信息
+     * @param $data array
+     * @return json
+     */
+    public function message_add($arr)
+    {
+        $res = Articles::where('a_title',$arr['a_title'])->get(array('a_title'))->toArray();
+        if($res){
+            $data['code'] = 10003;
+            $data['status'] = 'false';
+            $data['content'] = 'existing';
+            exit(json_encode($data));
+        }
+
+        $articles = new Articles;
+        $articles->a_title = $arr['a_title'];
+        $articles->a_author = $arr['a_author'];
+        //$articles->created_at = $arr['created_at'];
+        $articles->a_content = $arr['a_content'];
+        $articles->is_publish = 1;
+        $re = $articles->save();
+        if($re){
+            $data['code'] = 10000;
+            $data['status'] = 'success';
+            $data['content'] = 'Add a success';
+        }else{
+            $data['code'] = 10001;
+            $data['status'] = 'false';
+            $data['content'] = 'Add failure';
+        }
+        exit(json_encode($data));
+    }
+
+    /**
      * 删除信息
      * @param $a_id array 信息ID
      * @param json

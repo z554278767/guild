@@ -22,6 +22,17 @@ class CommerceController extends Controller
     }
 
     /**
+     * 动态添加
+     * @return json
+     */
+    public function message_add(Request $request)
+    {
+        $data = $request->input();
+        $re = $this->commerce->message_add($data);
+        return $re;
+    }
+
+    /**
      * 动态删除
      * @return json
      */
