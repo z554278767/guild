@@ -72,7 +72,7 @@ class PunishRepository
             $data['status'] = 'false';
             $data['content'] = 'Add failure';
         }
-        return response()->json($data);
+        return response()->json($data)->withCallback(Input::get('callback'));
     }
 }
 
