@@ -38,3 +38,4 @@ Route::any('/message_del','CommerceController@message_del');
 Route::any('/message_update','CommerceController@message_update');
 //标题关键字查询
 Route::any('/search','CommerceController@search');
+
