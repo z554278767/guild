@@ -5,10 +5,10 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * 用户模型
+ * 动态模型
  */
-class Members extends Model
+class Articles extends Model
 {
     //表名
-    protected $table = 'members';
+    protected $table = 'articles';
 }

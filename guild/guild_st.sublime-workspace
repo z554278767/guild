@@ -1,0 +1,1230 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cont",
+				"container\t(app.blade.php)"
+			],
+			[
+				"R",
+				"Request〔namespace〕"
+			],
+			[
+				"_",
+				"$_COOKIE〔variable〕"
+			],
+			[
+				"exp",
+				"experience"
+			],
+			[
+				"ta",
+				"tableObj"
+			],
+			[
+				"Cla",
+				"Classes\t(Api.php)"
+			],
+			[
+				"mysql_fe",
+				"mysql_fetch_assoc"
+			],
+			[
+				"date_timezon",
+				"date_timezone_set"
+			],
+			[
+				"user",
+				"userCheck"
+			],
+			[
+				"compan",
+				"companyCheck"
+			],
+			[
+				"Re",
+				"Request"
+			],
+			[
+				"text-",
+				"text-shadow"
+			],
+			[
+				"margin-",
+				"margin-left: 〔property〕"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"json",
+				"json_encode〔function〕"
+			],
+			[
+				"aja",
+				"  Perform an asynchronous HTTP (Ajax) request."
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"seller",
+				"seller_id"
+			],
+			[
+				"exec",
+				"exec〔function〕"
+			],
+			[
+				"print",
+				"print_r〔function〕"
+			],
+			[
+				"mouseo",
+				"mouseover\t.mouseover()"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"mem",
+				"memberObj"
+			],
+			[
+				"cance",
+				"cancelOrder"
+			],
+			[
+				"each",
+				"each\t$.each()"
+			],
+			[
+				"rea",
+				"ready\t$(document).ready"
+			],
+			[
+				"invite",
+				"invite_id"
+			],
+			[
+				"path",
+				"path_dir"
+			],
+			[
+				"dir",
+				"dirname〔function〕"
+			],
+			[
+				"上",
+				"上传视频大小不得超过512M\t(goods_edit.html)"
+			],
+			[
+				"upload",
+				"upload_video\t(reDeveloped.php)"
+			],
+			[
+				"fun",
+				"fun\tfunction …"
+			],
+			[
+				"move",
+				"move_uploaded_file〔function〕"
+			],
+			[
+				"s-g",
+				"s-jright\tsql-join-right"
+			],
+			[
+				"sel",
+				"s-hrel\t(show relations table)"
+			],
+			[
+				"a",
+				"animate\t.animate() with callback"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pcr",
+		"selected_items":
+		[
+			[
+				"pcr",
+				"Package Control: Remove Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"git:add",
+				"git: add (edit)"
+			],
+			[
+				"git clone",
+				"git: clone"
+			],
+			[
+				"git push",
+				"git: push (force)"
+			],
+			[
+				"gitbranch",
+				"git: push to existing branch"
+			],
+			[
+				"gitpush",
+				"git: push"
+			],
+			[
+				"gitremo",
+				"git: remote add"
+			],
+			[
+				"git remo",
+				"git: remote remove"
+			],
+			[
+				"gitcom",
+				"Git: Commit"
+			],
+			[
+				"gitadd",
+				"Git: Add All"
+			],
+			[
+				"gitini",
+				"Git: Init"
+			],
+			[
+				"git:push",
+				"git: push to existing branch"
+			],
+			[
+				"git:pull",
+				"git: pull"
+			],
+			[
+				"gitcheck",
+				"git: checkout"
+			],
+			[
+				"git branch",
+				"Git: Delete Branch"
+			],
+			[
+				"git merge",
+				"git: merge"
+			],
+			[
+				"gitcheckout",
+				"git: checkout"
+			],
+			[
+				"git:commit",
+				"Git: Commit"
+			],
+			[
+				"git:branch",
+				"Git: Merge Branch"
+			],
+			[
+				"gitbran",
+				"git: branch"
+			],
+			[
+				"gitcheckou",
+				"git: checkout new branch"
+			],
+			[
+				"gitran",
+				"Git: Merge Branch"
+			],
+			[
+				"git:remo",
+				"git: remote add"
+			],
+			[
+				"gitsta",
+				"Git: Status"
+			],
+			[
+				"gitstatus",
+				"git: status"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"gitreflog",
+				"git: reset (reflog)"
+			],
+			[
+				"gitres",
+				"git: reset"
+			],
+			[
+				"gitlog",
+				"Git: Log All"
+			],
+			[
+				"gitdiff",
+				"git: diff"
+			],
+			[
+				"git:diff",
+				"Git: Diff All Files"
+			],
+			[
+				"gitcomit",
+				"git: commit"
+			],
+			[
+				"gitcommit",
+				"git: commit including unstaged files"
+			],
+			[
+				"gitsavvy",
+				"GitSavvy: disable logging"
+			],
+			[
+				"gitclone",
+				"git: clone"
+			],
+			[
+				"gitfet",
+				"git: fetch"
+			],
+			[
+				"gitpu",
+				"git: pull"
+			],
+			[
+				"gitpull",
+				"git: pull"
+			],
+			[
+				"gitclo",
+				"git: clone"
+			],
+			[
+				"com",
+				"git: commit"
+			],
+			[
+				"pcupgr",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"pcu",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"githel",
+				"GitSavvy: help"
+			],
+			[
+				"git me",
+				"git: merge"
+			],
+			[
+				"git",
+				"Set Syntax: Git Graph"
+			],
+			[
+				"git ",
+				"Git: Add Current File"
+			],
+			[
+				"git:",
+				"git: branch"
+			],
+			[
+				"git:merge",
+				"git: merge"
+			],
+			[
+				"git:fe",
+				"git: fetch"
+			],
+			[
+				"git:clone",
+				"git: clone"
+			],
+			[
+				"git:init",
+				"git: init"
+			],
+			[
+				"git:com",
+				"git: commit including unstaged files"
+			],
+			[
+				"github",
+				"git: checkout remote branch as local"
+			],
+			[
+				"git:clo",
+				"git: clone"
+			],
+			[
+				"git:in",
+				"git: init"
+			],
+			[
+				"git:add e",
+				"git: add (edit)"
+			],
+			[
+				"git:status",
+				"git: status"
+			],
+			[
+				"git:fetch",
+				"git: fetch"
+			],
+			[
+				"git:cl",
+				"git: clone"
+			],
+			[
+				"git:p",
+				"Git: Push"
+			],
+			[
+				"git:st",
+				"Git: Status"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"git remote add origin git@github.com:tianrang/laravel.git",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/stone/month10/dayExercise"
+	],
+	"file_history":
+	[
+		"/C/Users/Administrator/Desktop/商会/迁移文件/2016_11_30_000001_create_roles_table.php",
+		"/D/project/guild/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/D/stone/month10/dayExercise/resources/views/auth/register.blade.php",
+		"/D/stone/month10/dayExercise/app/Http/Requests/RegisterCheck.php",
+		"/D/stone/month10/dayExercise/app/Http/Controllers/AddInfoController.php",
+		"/C/Users/Administrator/Desktop/商会/迁移文件/2016_11_30_000000_create_roles_privileges_table.php",
+		"/C/Users/Administrator/Desktop/2016_11_30_000005_create_companys_table.php",
+		"/D/stone/month10/dayExercise/vendor/laravel/framework/src/Illuminate/Foundation/Http/FormRequest.php",
+		"/D/stone/month10/dayExercise/resources/views/auth/addInfo.blade.php",
+		"/D/stone/month10/dayExercise/public/js/check.js",
+		"/D/stone/month10/dayExercise/resources/views/layouts/app.blade.php",
+		"/D/stone/month10/dayExercise/app/Http/Controllers/Auth/RegisterController.php",
+		"/D/stone/month10/dayExercise/routes/web.php",
+		"/D/stone/month10/dayExercise/app/Providers/AppServiceProvider.php",
+		"/C/Users/Administrator/Desktop/任务.txt",
+		"/D/stone/month10/dayExercise/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/D/stone/month10/dayExercise/vendor/webmozart/assert/src/Assert.php",
+		"/D/stone/month10/dayExercise/resources/lang/en/validation.php",
+		"/D/stone/month10/dayExercise/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php",
+		"/D/stone/month10/dayExercise/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
+		"/D/stone/month10/dayExercise/app/Http/Controllers/Auth/AddInfoController.php",
+		"/D/stone/month10/dayExercise/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php",
+		"/D/stone/month10/dayExercise/app/Http/Controllers/HomeController.php",
+		"/D/stone/month10/dayExercise/resources/views/auth/login.blade.php",
+		"/D/stone/month10/dayExercise/app/Http/Controllers/EnterController.php",
+		"/D/stone/month10/dayExercise/resources/views/enter/register.blade.php",
+		"/D/stone/month10/dayExercise/.env",
+		"/D/stone/month10/nodejs/express/index.htm",
+		"/D/stone/month10/nodejs/express/express_demo.js",
+		"/D/stone/month10/dayExercise/Homestead.yaml",
+		"/C/WINDOWS/System32/drivers/etc/HOSTS",
+		"/C/Users/Administrator/Desktop/后台/yonghu.psd",
+		"/D/stone/month10/nodejs/express/node_modules/server.js",
+		"/D/stone/month10/nodejs/test/index.js",
+		"/D/stone/month10/nodejs/test/route.js",
+		"/D/stone/month10/nodejs/test/index.htm",
+		"/D/stone/month10/nodejs/test/http.js",
+		"/D/stone/month10/nodejs/test/events.js",
+		"/D/stone/month10/nodejs/test/hello.js",
+		"/D/stone/month10/nodejs/test/first.js",
+		"/D/stone/month10/nodejs/test/input.txt",
+		"/D/stone/month10/nodejs/test/main.js",
+		"/C/Users/Administrator/Desktop/month10.lnk",
+		"/D/project/recruit/home/config/database.php",
+		"/D/project/recruit/home/phpinfo.php",
+		"/D/project/recruit/home/.env",
+		"/D/project/recruit/home/Homestead.yaml",
+		"/C/Users/Administrator/.homestead/Homestead.yaml",
+		"/C/Users/Administrator/Desktop/ccms/.git/config",
+		"/C/Users/Administrator/.ssh/config",
+		"/D/project/recruit/home/app/Http/Controllers/SiteController.php",
+		"/C/Users/Administrator/.gitconfig",
+		"/C/Users/Administrator/.ssh/known_hosts",
+		"/D/project/recruit/home/resources/views/layouts/site.blade.php",
+		"/D/project/recruit/home/resources/views/layouts/enter.blade.php",
+		"/D/project/recruit/home/app/Http/Controllers/SimpleController.php",
+		"/D/project/recruit/home/app/Repositories/SimpleRepository.php",
+		"/D/project/recruit/home/app/Events/Register.php",
+		"/D/project/recruit/home/app/Listeners/BindAccountEmail.php",
+		"/D/project/recruit/home/vendor/nesbot/carbon/src/Carbon/Carbon.php",
+		"/D/project/recruit/home/app/Mail/BindAccount.php",
+		"/D/project/recruit/home/app/Providers/EventServiceProvider.php",
+		"/D/project/recruit/home/resources/views/emails/user/bindAccount.php",
+		"/D/project/recruit/home/config/mail.php",
+		"/D/project/recruit/home/config/app.php",
+		"/D/project/recruit/home/app/User.php",
+		"/D/project/recruit/home/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/D/project/recruit/home/routes/web.php",
+		"/D/project/iwebshop4.6/config/site_config.php",
+		"/D/project/iwebshop4.6/config/config_default.php",
+		"/D/project/iwebshop4.6/config/config.php",
+		"/D/project/recruit/home/app/Mail/BindAcount.php",
+		"/D/project/recruit/home/config/geetest.php",
+		"/D/project/recruit/home/config/services.php",
+		"/D/project/recruit/home/phpunit.xml",
+		"/D/stone/month9_YII/phpstorm/blog/tests/UserTest.php",
+		"/C/Users/Administrator/Desktop/新建文本文档.txt",
+		"/D/project/recruit/home/resources/views/simple/register.blade.php",
+		"/D/stone/month9_YII/test/param.php",
+		"/C/Users/Administrator/Desktop/phpinfo.php",
+		"/D/project/recruit/home/vendor/germey/geetest/src/CaptchaGeetest.php",
+		"/D/project/recruit/home/vendor/germey/geetest/src/GeetestLib.php",
+		"/D/project/recruit/home/resources/views/vendor/geetest/geetest.blade.php",
+		"/D/project/recruit/home/public/style/css/style.css",
+		"/D/project/recruit/home/app/Http/Controllers/TestController.php",
+		"/D/project/recruit/home/app/Http/Controllers/Auth.php",
+		"/D/project/recruit/home/app/Http/Controllers/Auth/Auth.php",
+		"/D/project/recruit/home/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+		"/D/stone/month9_YII/test/decoration.php",
+		"/D/project/recruit/home/vendor/laravel/framework/src/Illuminate/Routing/RoutingServiceProvider.php",
+		"/D/project/recruit/home/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+		"/D/project/recruit/home/bootstrap/app.php",
+		"/D/project/recruit/home/vendor/laravel/framework/src/Illuminate/Events/EventServiceProvider.php",
+		"/D/project/recruit/home/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php",
+		"/D/project/recruit/home/vendor/laravel/framework/src/Illuminate/Console/Application.php",
+		"/D/project/recruit/home/vendor/composer/autoload_real.php",
+		"/D/project/recruit/home/vendor/autoload.php",
+		"/D/project/recruit/home/public/index.php",
+		"/D/project/recruit/home/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Localization.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/goTranslate.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Inline Google Translate/goTranslate.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/cndict.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Cndict/Default.sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Cndict/cndict.sublime-settings",
+		"/D/project/recruit/home/vendor/laravel/framework/src/Illuminate/Contracts/Container/Container.php",
+		"/D/project/recruit/home/vendor/symfony/http-kernel/HttpKernel.php",
+		"/D/project/recruit/home/app/Http/Kernel.php",
+		"/D/project/recruit/home/vendor/symfony/http-kernel/Kernel.php",
+		"/D/project/recruit/home/vendor/laravel/socialite/src/Facades/Socialite.php",
+		"/D/project/recruit/home/vendor/laravel/framework/src/Illuminate/Support/Facades/Session.php",
+		"/D/project/recruit/home/vendor/symfony/http-foundation/Session/Session.php",
+		"/D/project/recruit/home/vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php",
+		"/D/project/recruit/home/public/js/artTemplate.js",
+		"/D/project/recruit/home/vendor/uxweb/sweet-alert/src/SweetAlert/ConvertMessagesIntoSweatAlert.php",
+		"/C/Users/Administrator/Desktop/sweetalert-master/dist/sweetalert-dev.js",
+		"/C/Users/Administrator/Desktop/sweetalert-master/dist/sweetalert.min.js",
+		"/D/project/recruit/home/vendor/laravel/socialite/src/SocialiteServiceProvider.php",
+		"/D/project/recruit/home/vendor/socialiteproviders/qq/Provider.php",
+		"/D/project/recruit/home/vendor/laravel/socialite/src/Two/AbstractProvider.php",
+		"/C/Users/Administrator/Desktop/cacert.pem",
+		"/D/project/recruit/home/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/D/stone/month9_YII/test/fb.php",
+		"/D/stone/month9_YII/test/firephp-core-0.4.0/tests/TestHelper.php",
+		"/D/stone/month9_YII/test/Factory.php",
+		"/D/project/recruit/home/vendor/socialiteproviders/manager/src/OAuth2/AbstractProvider.php",
+		"/D/project/recruit/home/resources/views/site/index.blade.php",
+		"/D/project/recruit/home/vendor/laravel/framework/src/Illuminate/Support/Manager.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"msg",
+			"type",
+			"password",
+			"email",
+			"register",
+			"80",
+			"loginForm",
+			"login_bg",
+			"Closure",
+			"alias(",
+			"return",
+			"div",
+			"<input type=\"hidden\"",
+			"loginBlock",
+			"SocialiteServiceProvider",
+			"$user",
+			"$user->user",
+			"$user->",
+			"value",
+			"name",
+			"ses",
+			"session",
+			"getSession()",
+			"dd",
+			"die;",
+			"dd",
+			"dd(",
+			"stateless()",
+			"$this->stateless",
+			"isStateless()",
+			"hasInvalidState()",
+			"$this->hasInvalidState()",
+			"session",
+			"getSession()",
+			"$this->request->getSession()",
+			"使用以下帐号直接登录",
+			"TestController",
+			"you",
+			"youdao",
+			"$this->drivers",
+			"$this->stateless",
+			"Stateless",
+			"this->isStateless",
+			"stateless",
+			"IDENTIFIER",
+			"$this->items",
+			"shuffle",
+			"where",
+			"getHotPosition",
+			"getNewPosition",
+			"getHotPosition",
+			"tag",
+			"li",
+			"companyInfo",
+			"$val)",
+			"key",
+			"territory",
+			"short_name",
+			"HotPosition",
+			"hotPosition",
+			"hotCate",
+			"HotCate",
+			"hotCate",
+			"HotPosition",
+			"hotPosition",
+			"Api::",
+			"api::",
+			"['",
+			"<dl class=\"reset\">",
+			"dl",
+			"foreach",
+			"num",
+			"rawFields",
+			"configExt",
+			"$config",
+			"IWeb::$app->config['configExt']",
+			"getConfig",
+			"DateTime",
+			"datetime",
+			"DateTime",
+			"datetime",
+			"DateTime",
+			"dateTime",
+			"DateTime",
+			"echo",
+			"switch",
+			"script",
+			"去企业",
+			"拉勾",
+			"str",
+			"company",
+			"companyData",
+			"ajax",
+			"email",
+			"insertGetId",
+			"user",
+			"beError",
+			"resubmitToken",
+			"Repositor",
+			"name",
+			"tasks",
+			"ctx",
+			"loginForm",
+			"callback",
+			"yied",
+			"getaction",
+			"action",
+			"<div id=\"qrSide\"><a></a></div>",
+			"<!--<div id=\"qrSide\"><a></a></div> -->",
+			"title",
+			"<li class=\"clearfix\">",
+			"<div class=\"mb10\">",
+			"<dl class=\"reset\">",
+			"<div class=\"menu_box\">",
+			"dl",
+			"goods.php",
+			"goodsObj",
+			"getCategoryListTop",
+			"getCategoryByParentid",
+			"goods.php",
+			",",
+			"=>",
+			"getCommendNew",
+			"goods.php",
+			"getCommendNew",
+			"getNewGoods",
+			"getCommendNew",
+			"getCategoryListTop"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 124.0
+	},
+	"output.show_commit_info":
+	{
+		"height": 124.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "guild_st.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"illuminate/pipeline/pipeline",
+				"home\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php"
+			],
+			[
+				"illuminate/foundation/application",
+				"home\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php"
+			],
+			[
+				"illuminate/",
+				"home\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Authenticatable.php"
+			],
+			[
+				"ome/vendor/socialiteproviders/qq/prov",
+				"home\\vendor\\socialiteproviders\\qq\\Provider.php"
+			],
+			[
+				"or/socialiteproviders/manager/src/oauth2/abstractprovider.php",
+				"home\\vendor\\socialiteproviders\\manager\\src\\OAuth2\\AbstractProvider.php"
+			],
+			[
+				"home/vendor/socialiteproviders/manager/src/socialitewascalled.ph",
+				"home\\vendor\\socialiteproviders\\manager\\src\\SocialiteWasCalled.php"
+			],
+			[
+				"/laravel/socialite/contracts/factory",
+				"home\\vendor\\laravel\\socialite\\src\\Contracts\\Factory.php"
+			],
+			[
+				"socialiteproviders/qq",
+				"home\\vendor\\socialiteproviders\\qq\\QqExtendSocialite.php"
+			],
+			[
+				"socialiteproviders/qq/qqextendsocialite",
+				"home\\vendor\\socialiteproviders\\qq\\QqExtendSocialite.php"
+			],
+			[
+				"/socialiteproviders/manager/",
+				"home\\vendor\\socialiteproviders\\manager\\src\\Config.php"
+			],
+			[
+				"illuminate/support/collection",
+				"home\\vendor\\illuminate\\support\\Collection.php"
+			],
+			[
+				"/illuminate/database/connection",
+				"home\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php"
+			],
+			[
+				"illuminate/database/databasemanager",
+				"home\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\DatabaseManager.php"
+			],
+			[
+				"illuminate/support/facades/db",
+				"home\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\DB.php"
+			],
+			[
+				"trait",
+				"home\\vendor\\nikic\\php-parser\\test\\PhpParser\\Builder\\TraitTest.php"
+			],
+			[
+				"illuminate/support/facades",
+				"home\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\DB.php"
+			],
+			[
+				"filter",
+				"vendor\\phpunit\\php-code-coverage\\src\\Filter.php"
+			],
+			[
+				"database",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\DatabaseManager.php"
+			],
+			[
+				"helpers",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php"
+			],
+			[
+				"memcache",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Cache\\MemcachedConnector.php"
+			],
+			[
+				"helpers.php",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php"
+			],
+			[
+				"helper.php",
+				"vendor\\symfony\\console\\Helper\\Helper.php"
+			],
+			[
+				"model.php",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php"
+			],
+			[
+				"memcache.php",
+				"lib\\core\\cache\\memcache_class.php"
+			],
+			[
+				"config.php",
+				"classes\\config.php"
+			],
+			[
+				"query",
+				"lib\\core\\query_class.php"
+			],
+			[
+				"cache",
+				"lib\\core\\cache\\cache_class.php"
+			],
+			[
+				"db.php",
+				"lib\\db\\db_class.php"
+			],
+			[
+				"cachemanager.php",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Cache\\CacheManager.php"
+			],
+			[
+				"cacheserviceprovider.php",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Cache\\CacheServiceProvider.php"
+			],
+			[
+				"cache/cachemanager.php",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Cache\\CacheManager.php"
+			],
+			[
+				"sessionmanager.php",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Session\\SessionManager.php"
+			],
+			[
+				"predis",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Redis.php"
+			],
+			[
+				"iwebshopquery",
+				"iwebshop\\lib\\core\\query_class.php"
+			],
+			[
+				"laravelreque",
+				"month9_YII\\laravel\\vendor\\symfony\\http-foundation\\Request.php"
+			],
+			[
+				"laravelrequ",
+				"month9_YII\\laravel\\app\\Http\\Requests\\Request.php"
+			],
+			[
+				"laraveldb.php",
+				"month9_YII\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\DB.php"
+			],
+			[
+				"safe",
+				"iwebshop\\lib\\core\\util\\safe_class.php"
+			],
+			[
+				"query_cl",
+				"iwebshop\\lib\\core\\query_class.php"
+			],
+			[
+				"goodsgoods_li",
+				"iwebshop\\views\\sysdefault\\goods\\goods_list.html"
+			],
+			[
+				"membermember_l",
+				"iwebshop\\views\\sysdefault\\member\\member_list.html"
+			],
+			[
+				"model",
+				"iwebshop\\lib\\web\\model\\model_class.php"
+			],
+			[
+				"plugin_li",
+				"iwebshop\\views\\sysdefault\\plugins\\plugin_list.html"
+			],
+			[
+				"order_c",
+				"iwebshop\\classes\\order_class.php"
+			],
+			[
+				"flter",
+				"iwebshop\\lib\\core\\util\\filter_class.php"
+			],
+			[
+				"success",
+				"iwebshop\\views\\default\\site\\success.html"
+			],
+			[
+				"model_c",
+				"iwebshop\\lib\\web\\model\\model_class.php"
+			],
+			[
+				"session",
+				"iwebshop\\lib\\core\\util\\session_class.php"
+			],
+			[
+				"simpleseller",
+				"iwebshop\\views\\default\\simple\\seller.html"
+			],
+			[
+				"simple.php",
+				"iwebshop\\controllers\\simple.php"
+			],
+			[
+				"goods.php",
+				"iwebshop\\controllers\\goods.php"
+			],
+			[
+				"sellergoods",
+				"iwebshop\\views\\sysseller\\seller\\goods_edit.html"
+			],
+			[
+				"seller.php",
+				"iwebshop\\controllers\\seller.php"
+			],
+			[
+				"block",
+				"iwebshop\\controllers\\block.php"
+			],
+			[
+				"sellergoods_",
+				"iwebshop\\views\\sysseller\\seller\\goods_edit.html"
+			],
+			[
+				"sellerindex",
+				"iwebshop\\views\\sysseller\\seller\\index.html"
+			],
+			[
+				"simpleseller.ht",
+				"iwebshop\\views\\default\\simple\\seller.html"
+			],
+			[
+				"seller/ind",
+				"iwebshop\\views\\sysseller\\seller\\index.html"
+			],
+			[
+				"/sellergoods",
+				"iwebshop\\views\\sysseller\\seller\\goods_edit.html"
+			],
+			[
+				"goods_edit.",
+				"iwebshop\\runtime\\views\\sysseller\\seller\\goods_edit.php"
+			],
+			[
+				"goods.ht",
+				"iwebshop\\views\\sysdefault\\block\\goods_list.html"
+			],
+			[
+				"other",
+				"iwebshop\\classes\\api\\other.php"
+			],
+			[
+				"other.php",
+				"iwebshop\\classes\\api\\other.php"
+			],
+			[
+				"seller.html",
+				"iwebshop\\views\\default\\simple\\seller.html"
+			],
+			[
+				"ireq",
+				"iwebshop\\lib\\core\\util\\req_class.php"
+			],
+			[
+				"kill_li",
+				"iwebshop\\views\\sysdefault\\market\\kill_list.html"
+			],
+			[
+				"kill",
+				"iwebshop\\views\\sysdefault\\market\\kill_edit.html"
+			],
+			[
+				"groupon",
+				"iwebshop\\views\\default\\site\\groupon.html"
+			],
+			[
+				"_produ",
+				"iwebshop\\views\\default\\site\\_products_time.html"
+			],
+			[
+				"kill_list",
+				"iwebshop\\views\\sysdefault\\market\\kill_list.html"
+			],
+			[
+				"products.ht",
+				"iwebshop\\views\\default\\site\\products.html"
+			],
+			[
+				"site.php",
+				"iwebshop\\controllers\\site.php"
+			],
+			[
+				"market.php",
+				"iwebshop\\controllers\\market.php"
+			],
+			[
+				"products.php",
+				"runtime\\views\\default\\site\\products.php"
+			],
+			[
+				"order.php",
+				"controllers\\order.php"
+			],
+			[
+				"seller_ed",
+				"views\\sysdefault\\member\\seller_edit.html"
+			],
+			[
+				"member_ed",
+				"views\\sysdefault\\member\\member_edit.html"
+			],
+			[
+				"sys",
+				"controllers\\system.php"
+			],
+			[
+				"order.html",
+				"views\\default\\ucenter\\order.html"
+			],
+			[
+				"sim",
+				"controllers\\simple.php"
+			],
+			[
+				"success.html",
+				"views\\default\\site\\success.html"
+			],
+			[
+				"cart3.",
+				"views\\default\\simple\\cart3.html"
+			],
+			[
+				"cart3",
+				"runtime\\views\\default\\simple\\cart3.php"
+			],
+			[
+				"block.php",
+				"controllers\\block.php"
+			],
+			[
+				"goods",
+				"controllers\\goods.php"
+			],
+			[
+				"goods_",
+				"classes\\goods_class.php"
+			],
+			[
+				"market",
+				"controllers\\market.php"
+			],
+			[
+				"ucenter",
+				"controllers\\ucenter.php"
+			],
+			[
+				"upload",
+				"iwebshop\\lib\\core\\util\\upload_class.php"
+			],
+			[
+				"goods_edit",
+				"iwebshop\\views\\sysdefault\\goods\\goods_edit.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\project\\sublime3 workspace\\recruit.home.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 448.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 305.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
