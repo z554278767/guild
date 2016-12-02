@@ -27,7 +27,7 @@ class CommerceRepository
             $data['status']='false';
             $data['content']='Temporarily no data';
         }
-        exit(json_encode($data));
+        return response()->json($data)->withCallback(Input::get('callback'));
     }
 
 
@@ -43,7 +43,7 @@ class CommerceRepository
             $data['code'] = 10003;
             $data['status'] = 'false';
             $data['content'] = 'existing';
-            exit(json_encode($data));
+            return response()->json($data)->withCallback(Input::get('callback'));
         }
 
         $articles = new Articles;
@@ -62,7 +62,8 @@ class CommerceRepository
             $data['status'] = 'false';
             $data['content'] = 'Add failure';
         }
-        exit(json_encode($data));
+        return response()->json($data)->withCallback(Input::get('callback'));
+
     }
 
     /**
@@ -82,7 +83,7 @@ class CommerceRepository
             $data['status'] = 'false';
             $data['content'] = 'Delete failed';
         }
-        exit(json_encode($data));
+        return response()->json($data)->withCallback(Input::get('callback'));
     }
 
     /**
@@ -102,7 +103,7 @@ class CommerceRepository
             $data['status'] = 'false';
             $data['content'] = 'Modify the failure';
         }
-        exit(json_encode($data));
+        return response()->json($data)->withCallback(Input::get('callback'));
     }
 
     /**
@@ -122,7 +123,7 @@ class CommerceRepository
             $data['status'] = 'false';
             $data['content'] = 'Temporarily no datae';
         }
-        exit(json_encode($data));
+        return response()->json($data)->withCallback(Input::get('callback'));
     }
 }
 ?>

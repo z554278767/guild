@@ -26,7 +26,7 @@ class PunishRepository
             $data['status'] = 'false';
             $data['content'] = 'Temporarily no data';
         }
-        return response()->json($data);
+        return response()->json($data)->withCallback(Input::get('callback'));
     }
 
     /**
@@ -47,7 +47,7 @@ class PunishRepository
                 $data['status'] = 'false';
                 $data['content'] = 'An unknown error';
             }
-            return response()->json($data);
+            return response()->json($data)->withCallback(Input::get('callback'));
         }
 
         /**

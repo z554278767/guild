@@ -27,7 +27,7 @@ class CompanysRepository
             $data['status']='false';
             $data['content']='Temporarily no data';
         }
-        exit(json_encode($data));
+        return response()->json($data)->withCallback(Input::get('callback'));
     }
 
     /**
@@ -47,7 +47,7 @@ class CompanysRepository
             $data['status']='false';
             $data['content']='An unknown error';
         }
-        exit(json_encode($data));
+        return response()->json($data)->withCallback(Input::get('callback'));
     }
 
     /**
@@ -67,7 +67,7 @@ class CompanysRepository
             $arr['status'] = 'false';
             $arr['content'] = 'Submission failed';
         }
-        exit(json_encode($arr));
+        return response()->json($arr)->withCallback(Input::get('callback'));
     }
 }
 ?>

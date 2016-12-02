@@ -28,21 +28,20 @@ class VerifyRepository
                     $arr['code'] = '10000';     //登陆成功
                     $appkey = Hash::make($data['username'].$data['key'].$data['password']);
                     $arr['data'] = ['status'=>'success','appkey'=>$appkey,'content'=>'Login successful'];
-                    exit(json_encode($arr));
                 }else{
                     $arr['code'] = '10002';     //密码错误
                     $arr['data'] = ['status'=>'false','content'=>'Password mistake'];
-                    exit(json_encode($arr));
                 }
+                return response()->json($arr)->withCallback(Input::get('callback'));
             }else{
                 $arr['code'] = '10001';     //用户名不存在
                 $arr['data'] = ['status'=>'false','content'=>'User name does not exist'];
-                exit(json_encode($arr));
+                return response()->json($arr)->withCallback(Input::get('callback'));
             }
         }else{
             $arr['code'] = '10003';     //秘钥不正确
             $arr['data'] = ['status'=>'false','content'=>'The secret key error'];
-            exit(json_encode($arr));
+            return response()->json($arr)->withCallback(Input::get('callback'));
         }
     }
 
