@@ -14,6 +14,7 @@ class PunishRepository
     public function Punish_list()
     {
         $re = Punish::all(['j_id','c_name','m_id','j_type','j_info','j_res','j_status'])->toArray();
+
         if ($re)
         {
            $data['code'] = 10000;
@@ -34,18 +35,23 @@ class PunishRepository
      */
         public function punish_details($id)
         {
-            $re = Punish::where('j_id',$id)->first()->toArray();
-            if($re)
+            if(empty($id))
             {
-                $data['code'] = 10000;
+                $data['code'] = 10006;
                 $data['status'] = 'success';
-                $data['content'] = $re;
+                $data['content'] = 'Data query is less than';
             }
-            else
-            {
-                $data['code'] = 10001;
-                $data['status'] = 'false';
-                $data['content'] = 'An unknown error';
+            else {
+                $re = Punish::where('j_id', $id)->first()->toArray();
+                if ($re) {
+                    $data['code'] = 10000;
+                    $data['status'] = 'success';
+                    $data['content'] = $re;
+                } else {
+                    $data['code'] = 10001;
+                    $data['status'] = 'false';
+                    $data['content'] = 'An unknown error';
+                }
             }
             return response()->json($data)->withCallback(Input::get('callback'));
         }
